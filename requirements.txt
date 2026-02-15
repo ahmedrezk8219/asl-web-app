@@ -1,9 +1,9 @@
 streamlit
 opencv-python-headless
 mediapipe
-tensorflow-cpu==2.15.0
+tensorflow-cpu
 googletrans==4.0.0-rc1
-numpy<2.0.0
+numpy
 joblib
 av
 streamlit-webrtc
