@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 streamlit
 opencv-python-headless
 mediapipe
@@ -6,3 +7,12 @@ googletrans==4.0.0-rc1
 numpy
 joblib
 av
+=======
+streamlit==1.29.0
+opencv-python-headless==4.7.0.72
+googletrans==4.0.0
+numpy==1.26.2
+mediapipe==0.10.32
+tensorflow==2.20.0
+rich>=14.0.0
+>>>>>>> 860176b74c99c79ace1e631e74ce5f9fdec5c71f
