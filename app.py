@@ -57,10 +57,10 @@ st.markdown('<div class="warning-box">⚠️ يرجى استخدام "اليد �
 # 2. مسارات الموديلات
 # ==========================
 BASE_DIR = os.path.dirname(__file__)
-model_path = "C:/Users/Rezk/Desktop/asl_web_app/model/asl_hand_model.keras"
-scaler_path = "C:/Users/Rezk/Desktop/asl_web_app/model/scaler.save"
-le_path = "C:/Users/Rezk/Desktop/asl_web_app/model/label_encoder.save"
-hand_task_path = "C:/Users/Rezk/Desktop/asl_web_app/model/hand_landmarker.task"
+model_path = os.path.join(BASE_DIR, "model", "asl_hand_model.keras")
+scaler_path = os.path.join(BASE_DIR, "model", "scaler.save")
+le_path = os.path.join(BASE_DIR, "model", "label_encoder.save")
+hand_task_path = os.path.join(BASE_DIR, "model", "hand_landmarker.task")
 
 @st.cache_resource
 def load_all_models():
